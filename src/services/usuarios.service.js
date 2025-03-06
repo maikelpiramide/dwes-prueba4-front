@@ -1,4 +1,4 @@
-const API = `backend.maikelexamen.daw.cpifppiramide.com:8080/usuarios/`;
+const API = `https://backend.maikelexamen.daw.cpifppiramide.com:8080/usuarios/`;
 
 const getUser = () => {
   const user = localStorage.getItem("user");
