@@ -1,4 +1,4 @@
-const API = `https://backend.maikelexamen.daw.cpifppiramide.com:8080/transacciones/`;
+const API = `https://backend.maikelexamen.daw.cpifppiramide.com:8080/api/transacciones/`;
 
 const getTransacciones = async () => {
   const url = `${API}`;
