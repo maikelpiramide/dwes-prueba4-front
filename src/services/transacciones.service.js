@@ -1,4 +1,4 @@
-const API = `${import.meta.env.VITE_APP_API}/transacciones/`;
+const API = `backend.maikelexamen.daw.cpifppiramide.com:8080/transacciones/`;
 
 const getTransacciones = async () => {
   const url = `${API}`;

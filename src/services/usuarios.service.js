@@ -1,4 +1,4 @@
-const API = `${import.meta.env.VITE_APP_API}/usuarios/`;
+const API = `backend.maikelexamen.daw.cpifppiramide.com:8080/usuarios/`;
 
 const getUser = () => {
   const user = localStorage.getItem("user");
